@@ -1,0 +1,63 @@
+.decor{
+    text-decoration: none;
+    color: green;
+  }
+  .login{ 
+      margin-top: 100px;
+      text-align: center;
+      position:fixed;
+      width: 100%;
+    }
+    .input{
+      border-radius: 4px;
+      border: 2px solid black;
+      width: 35%;
+      padding: 8px 8px;
+    }
+    .form{
+      margin-top: 20px;
+    }
+    .button{
+    background-color:rgb(19, 17, 17);
+    color: whitesmoke;
+      border: none;
+    
+      border-radius: 4px;
+      padding:4px 85px;
+    }
+    
+    .button:hover{
+      background-color: rgb(99, 95, 95);
+      color: whitesmoke;
+      transition: 1s;
+    }
+    
+    @media screen and (max-width: 1300px) {
+      .input, input[type=submit] {
+        width: 45%;
+        margin-top: 0;
+      }
+    }
+    
+    @media screen and (max-width: 980px) {
+      .input, input[type=submit] {
+        width: 70%;
+        margin-top: 0;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .input, input[type=submit] {
+        width: 70%;
+        margin-top: 0;
+      }
+    }
+    .homelink{
+      text-decoration: none;
+      color: white;
+    }
+    .errormsg{
+      margin-top: 0px;
+      margin-bottom: -35px;
+      color: red;
+    }
